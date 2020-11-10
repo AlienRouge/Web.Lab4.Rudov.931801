@@ -113,14 +113,15 @@ footer > p {
   margin: 0;
   padding: 10px;
 }
-footer > button {
+footer > form {
   margin-top: 10px;
+  float: right;
 }
 @media screen and (max-width: 960px) {
   aside {
     display: none;
   }
-  footer > button {
+  footer > form {
     display: none;
   }
   /* header > img{
