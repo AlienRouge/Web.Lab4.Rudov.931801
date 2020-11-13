@@ -16,6 +16,7 @@ header {
   background-color: #507299;
   box-sizing: border-box;
   height: 43px;
+  z-index: 500;
 }
 header > img {
   padding: 8px 18%;
@@ -66,6 +67,7 @@ nav > ul > li {
   position: relative;
   right: 20px;
   width: 389px;
+  z-index: 100;
 }
 .NewsHeader > h4 {
   margin: 0 20px;
